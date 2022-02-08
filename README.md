@@ -31,6 +31,14 @@ mydata<-rbind(mydata,sums)
 print(mydata,row.names=FALSE)
 result<-chisq.test(f,p=pr,rescale.p=TRUE)
 print(result)
+
+
+
+
+
+
+
+
 OUTPUT:
  # Goodness of fit for ND  
 > x<-c(1,3,5,7,9)
